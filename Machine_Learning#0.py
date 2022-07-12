@@ -7,10 +7,10 @@
 #(supervised learning) take into account features/attributes and assign a label.
 
 import numpy as np
-features = np.array([-1,-1],[-2,-1],[-3,-2],[1,1],[3,2])
+features = np.array([[-1,-1],[-2,-1],[-3,-2],[1,1],[2,1],[3,2]])
 labels = np.array([1,1,1,2,2,2])
 
 from sklearn.naive_bayes import GaussianNB
 classifer = GaussianNB()
 classifer.fit(features,labels)
-print(classifer.predict([[.8,-1]]))
+print(classifer.predict([[.8,-1]]))         #result: [1]
