@@ -14,3 +14,5 @@ from sklearn.naive_bayes import GaussianNB
 classifer = GaussianNB()
 classifer.fit(features,labels)
 print(classifer.predict([[.8,-1]]))         #result: [1]
+
+#classifier .score(feature_test, label_test)
