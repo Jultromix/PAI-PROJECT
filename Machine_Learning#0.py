@@ -3,7 +3,7 @@
 #File´s creation date: 07/11/2022
 
 #Context:
-#From an Udacity course (Machine Learning) the scikit-learn library there are some basic tools to make classifiers
+#From a Udacity course (Machine Learning) the scikit-learn library there are some basic tools to make classifiers
 #(supervised learning) take into account features/attributes and assign a label.
 
 import numpy as np
