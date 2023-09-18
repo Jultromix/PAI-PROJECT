@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "tensorflow-course"
+version = "0.1.0"
+description = "This environment pretends to serve as an introduction on how to use techniques related to artificial intelligence, this approach will use tensorflow as well as other related libraries"
+authors = ["Julio <juliomoreno7217@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
